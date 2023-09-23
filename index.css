@@ -1,0 +1,876 @@
+body {
+
+    background-color: black;
+}
+
+.main-cont {
+    width: 500vh;
+    height: 500vh;
+    background-color: #010100;
+    margin: 5px 5px 5px 5px;
+}
+
+.home-search {
+    background-color: #121313;
+
+    border-radius: 14px;
+    width: 280px;
+    height: 113px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 8px 12px 8px 12px;
+    align-items: center;
+    color: rgb(226, 226, 226);
+    ;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+}
+
+.home {
+    padding: 4px 12px 4px 12px;
+    /* background-color: rgb(39, 34, 34); */
+    width: 233px;
+    height: 40px;
+    margin-left: 9px;
+    margin-bottom: -1px;
+    align-items: center;
+}
+
+.search {
+    margin-left: 9px;
+
+    margin-top: 1px;
+    padding: 4px 12px 4px 12px;
+    /* background-color: rgb(39, 34, 34); */
+    width: 233px;
+    height: 40px;
+    position: relative;
+    top: -5px;
+
+}
+
+.homeimg {
+    background-image: url(home-solid.png);
+    background-size: cover;
+
+    height: 20px;
+    width: 20px;
+
+
+    position: relative;
+    top: 9px;
+    left: 23px;
+
+}
+
+.txt1 {
+
+    height: 25px;
+    width: 44px;
+
+    position: absolute;
+    top: 5px;
+    left: 100px;
+    color: rgb(226, 226, 226);
+    /* background-color: brown; */
+
+
+
+}
+
+.txt1 p {
+
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, ));
+    font-weight: 700px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.txt1 :hover {
+    color: white;
+}
+
+/* this is for the search property */
+
+.searchimg {
+    background-image: url(search-line.png);
+    background-size: cover;
+
+    height: 20px;
+    width: 20px;
+
+
+    position: relative;
+    top: 9px;
+    left: 23px;
+
+}
+
+.txt2:hover {
+    color: white;
+}
+
+.txt2 {
+
+    height: 25px;
+    width: 44px;
+
+    position: absolute;
+    top: -6px;
+    left: 80px;
+    color: rgb(226, 226, 226);
+    ;
+    /* background-color: brown; */
+
+
+
+}
+
+.txt2 p {
+
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, ));
+    font-weight: 700px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+
+/* box 1 completed */
+
+/* library now bro */
+
+.library {
+
+    border-radius: 14px;
+    width: 273px;
+    height: 900px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 12px 12px 8px 20px;
+    align-items: center;
+    color: rgb(226, 226, 226);
+    ;
+    font-weight: bold;
+    position: relative;
+    background-color: #121313;
+
+
+
+}
+
+.yourlibrary {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.libimg {
+
+    position: absolute;
+    background-image: url(libwhite.png);
+    background-size: cover;
+    left: 33px;
+    height: 23px;
+    width: 23px;
+
+
+}
+
+.library2 {
+    position: relative;
+    left: -36px;
+
+}
+
+.library2 P {
+
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, ));
+    font-weight: 700px;
+    font-size: 18px;
+    box-sizing: border-box;
+
+
+}
+
+.plus {
+    background-image: url(baseline-plus.png);
+    position: absolute;
+
+    background-size: cover;
+    left: 209px;
+    height: 23px;
+    width: 23px;
+
+}
+
+.larrow {
+    background-image: url(arrow-right.png);
+    position: absolute;
+
+    background-size: cover;
+    left: 254px;
+    height: 23px;
+    width: 23px;
+
+}
+
+.library2 :hover {
+    color: white;
+
+
+}
+
+.playlist-alb {
+    display: flex;
+
+
+
+    align-items: center;
+}
+
+.playlist {
+    position: relative;
+    left: 12px;
+    padding: 5px 6px 5px 5px;
+}
+
+.playlist button {
+    border-radius: 12px;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, ));
+    font-weight: 700px;
+    font-size: 18px;
+    background-color: #232222;
+    color: rgb(226, 226, 226);
+    border: none;
+    padding: 3px 8px 3px 8px;
+}
+
+.album button {
+    border-radius: 12px;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, ));
+    padding: 3px 8px 3px 8px;
+    font-weight: 500px;
+    font-size: 18px;
+    background-color: #232222;
+    color: rgb(226, 226, 226);
+    border: none;
+}
+
+.album {
+    position: relative;
+    left: 20px;
+}
+
+
+/* this part is completed ! */
+.search-recnt {
+    display: flex;
+
+    width: 280px;
+
+
+}
+
+.search2 {
+    background-image: url(search-line.png);
+    background-size: cover;
+
+    height: 20px;
+    width: 20px;
+
+
+    position: relative;
+
+    left: 14px;
+    margin-top: 15px;
+
+}
+
+.rescent {
+    height: 20px;
+    width: 100px;
+
+    background-color: #121313;
+
+    color: rgb(226, 226, 226);
+    border: none;
+    position: relative;
+    top: 13px;
+    left: 122px;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, ));
+    font-weight: 500px;
+    font-size: 16px;
+
+
+
+
+}
+
+.drop1 {
+    background-image: url(down-arrow.png);
+    height: 20px;
+    width: 19px;
+    background-size: cover;
+    position: relative;
+    top: -6px;
+    left: 207px;
+
+}
+
+.playlists {
+    width: 280px;
+    margin-top: 10px;
+    height: 700px;
+
+    background-color: #121313;
+    position: relative;
+    bottom: 13px;
+
+}
+
+.playlist1 {
+    width: 275px;
+    height: 69px;
+    background-color: #121313;
+
+
+}
+.playlist1 :hover {
+    background-color: #232222;
+
+}
+
+.imgplay1 {
+    background-image: url(sportify\ liked\ song\ font.jpg);
+    background-size: cover;
+
+    height: 60px;
+    width: 60px;
+
+
+    position: relative;
+    top: 5px;
+    left: 6px;
+    margin-top: 15px;
+}
+
+.txtply1 {
+    position: absolute;
+    bottom: 651px;
+
+    left: 83px;
+
+}
+
+.playlist1 p {
+    color: white;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, ));
+    font-weight: 500px;
+    font-size: 16px;
+
+
+}
+
+.pin {
+    background-image: url(pin2.png);
+    background-size: cover;
+
+    height: 20px;
+    width: 23px;
+
+
+    position: relative;
+    top: -20px;
+    left: 74px;
+}
+
+.songnum {
+    position: relative;
+    top: -54px;
+    left: 102px;
+
+}
+
+.songnum p {
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, ));
+    font-weight: 500px;
+    font-size: 16px;
+    color: #a6a6a7;
+
+
+
+}
+
+/* second playlist */
+.imgplay2 {
+    background-image: url(playlist1.jpg);
+    background-size: cover;
+
+    height: 60px;
+    width: 60px;
+
+
+    position: relative;
+    top: 5px;
+    left: 6px;
+    margin-top: 15px;
+}
+
+.txtply2 {
+    position: absolute;
+    top: 83px;
+
+    left: 83px;
+
+}
+
+.txtply2 p {
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, ));
+    font-weight: 500px;
+    color: white;
+
+
+}
+
+.playlist3 {
+    width: 275px;
+    height: 69px;
+
+
+}
+
+.playlist2 {
+
+    width: 275px;
+    height: 69px;
+
+
+}
+
+
+
+/* this is css for the playlist 3 */
+
+.txtply3 {
+    position: absolute;
+    top: 168px;
+
+    left: 83px;
+
+}
+
+.imgplay3 {
+    background-image: url(2new.jpg);
+    background-size: cover;
+
+    height: 60px;
+    width: 60px;
+
+
+    position: relative;
+    top: 5px;
+    left: 6px;
+    margin-top: 15px;
+}
+
+.txtply3 {
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, ));
+    font-weight: 500px;
+    color: #ffffff;
+}
+
+/* we are creating the next part or the songs list */
+.singslist1 {
+    background-color: #121313;
+    height: 994px;
+    width: 1176px;
+    position: relative;
+    bottom: 1051px;
+    left: 329px;
+    margin-left: -6px;
+    margin-top: -2px;
+    padding-right: 2px;
+    border-radius: 1%;
+
+
+
+}
+
+/* top nav bar on the top to liked songs part */
+.top {
+    padding-top: 20px;
+    width: 1176px;
+    background-color: #46338b;
+    height: 357px;
+}
+
+
+.top-nav {
+    padding-top: 5px;
+    height: 55px;
+
+
+}
+
+.left {
+    background-image: url(arrow-left.png);
+    background-size: cover;
+    background-color: #2f215b;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    border: 0.5px solid black;
+
+
+    position: relative;
+    top: -15px;
+    left: 20px;
+    margin-top: 15px;
+}
+
+.right {
+    background-image: url(arrow-right\ \(1\).png);
+    background-size: cover;
+    background-color: #2d1f57;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    border: 0.5px solid black;
+
+
+    position: relative;
+    top: -63px;
+    left: 68px;
+    margin-top: 15px;
+}
+
+.colrbtn {
+    display: flex;
+}
+
+.explorbtn {
+    width: 150px;
+    height: 33px;
+    justify-content: center;
+
+
+    border: 1.9px solid black;
+    border-radius: 50px 50px 50px 50px;
+
+    background-color: rgb(249, 249, 249);
+    position: relative;
+    left: 798px;
+    top: -91px;
+
+
+
+}
+
+.explorbtn p {
+    margin: 0;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, ));
+    font-weight: 500px;
+    padding: 7px 5px 5px 17px;
+
+}
+
+.installapp {
+    display: flex;
+    width: 150px;
+    height: 33px;
+    justify-content: center;
+    margin-left: 6px;
+
+
+    border: 1.9px solid black;
+    border-radius: 50px 50px 50px 50px;
+    color: white;
+    background-color: #251a49;
+    position: relative;
+    left: 797px;
+    top: -91px;
+
+
+
+}
+
+.installapp p {
+    margin-left: 0px;
+    margin: 0;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, ));
+    font-weight: 500px;
+    padding: 6px 5px 5px 5px;
+
+}
+
+.installimg {
+    background-image: url(install1.png);
+    background-size: cover;
+
+    height: 83px;
+    width: 23px;
+    border-radius: 100px;
+
+    margin-top: 4px;
+}
+
+.profileimg1 {
+    background-image: url(profile1.png);
+    background-size: cover;
+
+    height: 39px;
+    width: 38px;
+    border-radius: 100px;
+    position: relative;
+    left: 800px;
+    bottom: 91px;
+    margin-left: 2.5px;
+
+
+
+}
+
+/* we are stating liked song part we have completed the navbar part */
+
+
+.likedplylist-1 {
+    padding-top: 10px;
+    padding-left: 27px;
+    height: 300px;
+    width: 1176px;
+    position: relative;
+    bottom: 64px;
+
+}
+
+.likedsong-img {
+    box-shadow: 0 4px 60px rgba(0, 0, 0, .5);
+    background-image: url(sportify\ liked\ song\ font.jpg );
+    height: 253px;
+    width: 286px;
+    background-size: cover;
+
+}
+
+/* right side */
+
+.playlist-3 {
+    display: flex;
+    width: 856px;
+    height: 314px;
+
+    position: relative;
+    bottom: 314px;
+    left: 310px;
+    flex-direction: column;
+
+}
+
+.playlistinside {
+    position: relative;
+    top: 54px;
+    padding-top: 0px;
+}
+
+.playlistinside p {
+    color: white;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, ));
+    font-weight: 500px;
+    font-size: 0.899rem;
+
+}
+
+.likedsong1 {
+    margin-top: -73px;
+    margin: -1.92em 0px 0.12em;
+}
+
+.likedsong1 p {
+
+    font-size: 6rem;
+    color: white;
+
+    font-weight: 500px;
+
+}
+
+.playlistwitimg {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -52px;
+    right: 32px;
+}
+
+.profileimg2 {
+    position: relative;
+    top: 0px;
+    left: 36px;
+
+    background-image: url(profile1.png);
+    background-size: cover;
+
+    height: 39px;
+    width: 38px;
+    border-radius: 100px;
+
+}
+
+.name {
+    position: relative;
+    left: 41px;
+    bottom: 8px;
+
+}
+
+.name p {
+    color: white;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, ));
+
+}
+
+.songnum1 {
+    position: relative;
+    left: 48px;
+    bottom: 8px;
+
+
+}
+
+.songnum1 p {
+    color: white;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, ));
+
+}
+
+
+
+/* now we are adding play button bellow liked songs nav main box */
+
+.playbtn {
+    height: 104px;
+    width: 100%;
+    background-color: #21193d;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+
+.playbtnimg {
+
+
+    height: 60px;
+    width: 60px;
+    margin-left: 25px;
+    border-radius: 100px;
+    border: 1.5px solid black;
+    background-color: #1fd660;
+    position: relative;
+    top: 22px;
+
+}
+
+.playbtnimg img {
+    position: relative;
+    top: 20px;
+    left: 23px;
+    
+
+}
+
+/* now on end */
+
+.title {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 100%;
+    background-color: #181526;
+    
+    align-items: center;
+}
+.hashtag {
+    position: relative;
+    left: 53px;
+}
+.tittletxt {
+    position: relative;
+    left: 97px;
+}
+.albumdown {
+    position: relative;
+    left: 520px;
+
+}
+.dateadded {
+    position: relative;
+    left: 702px;
+}
+.clock {
+    position: relative;
+    left: 892px;
+}
+
+/* titlebar font and size  */
+.title p {
+    color:#b3b3b3;
+    --fallback-fonts: Helvetica Neue,helvetica,arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic;
+    font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif),sans-serif;
+
+}
+
+.line hr{
+    color: #2d2837;
+
+}
+.line {
+    margin: 0;
+    
+    padding: 0;
+    position: relative;
+    bottom: 10px;
+
+}
+
+
+/* we are goin gto code the main part of the website */
+
+
+.songslistbox{
+    height: 100%;
+    width: 1176px;
+    background-color: #1fd660;
+}
+.songlist {
+    height: 100%;
+    width: 1116px;
+    background-color: tomato;
+    display:flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right:40px ;
+}
+/* now we are plaing postion for the songs list  */
+
+.song1 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color:yellow ;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+
+
+}
+.song1inside{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
